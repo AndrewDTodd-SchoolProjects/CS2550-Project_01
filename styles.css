@@ -1,0 +1,47 @@
+body
+{
+    font-family: 'Inconsolata', monospace;
+    background-image: url('paper_background.webp');
+    background-repeat: repeat;
+    font-size: 1.2em;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+
+table
+{
+    border: 1px solid black;
+    text-align: center;
+}
+
+th, td
+{
+    border: 1px solid black;
+    padding: 3px;
+}
+
+table, th, td
+{
+    border-spacing: 3px;
+}
+
+.right-aligned-float
+{
+    float: right;
+    margin: 10px;
+    width: 500px;
+}
+
+.centered
+{
+    text-align: center;
+    margin: 0 auto;
+}
